@@ -6,12 +6,14 @@
     <link href="css/default.css" rel="stylesheet" />
     <script>
         function addNumbers(countUpTo) {
-            sum = 0;
-            for (i = 0; i <= countUpTo; i++) {
-                sum += i;
+            sum = 0; i = 0;
+            
+            while (i < countUpTo) {
+                sum += i++;
             }
             return sum;
         }
+
     </script>
 </head>
 <body>
